@@ -1,0 +1,36 @@
+button{
+    border: 1px solid;
+}
+
+
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;
+        opacity: 0;;}
+  }
+  
+  /* The element to apply the animation to */
+  .ani {
+    
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+    
+   
+  }
+  p{
+    opacity: 0;
+    transition: 4s;
+  }
+  @keyframes example2 {
+    from {opacity: 0;}
+    to {background-color: yellow;
+        opacity: 1;;}
+  }
+  .ani2{
+    opacity: 1;
+    font-weight: 900;
+    
+  }
